@@ -1,0 +1,42 @@
+header {
+    height : 100px ; 
+    background-color: red;
+}
+nav{ 
+    height : 100px ;
+    background-color: orange;
+}
+.content{
+    height: 250px;
+    background-color: yellowgreen;
+    display: flex;
+}
+.content1{
+    /* float : left; */
+    height :250px;
+    /* width: 70% ; */
+    flex : 70%;
+    background-color: whitesmoke;}
+
+.content2{flex: 20%;
+    background-color: pink;}
+
+section{
+    height:150px;
+    background-color: yellow;
+}
+article{
+    height:100px;
+    background-color: green;
+}
+aside{
+    height: 250px;
+    /* width: 30%; */
+    flex : 30%;
+    background-color: blue; 
+    /* float:right */
+}
+footer{
+    height : 100px ; 
+    background-color: purple;
+}
