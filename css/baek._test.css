@@ -25,7 +25,7 @@ ul.myMenu > li ul.submenu {display: none ; position: absolute; top:50px; left: -
 ul.myMenu > li:hover ul.submenu {display: block;}
 /* 서브메뉴 블록화 */
 ul.myMenu > li ul.submenu > li {display: inline-block; width: 100px;
-    padding: 10px 82px 20px 70px;
+    padding: 10px 100px 20px 100px;
     background: #037f37;  text-align: center; border-bottom: 1px solid white;}
 ul.myMenu > li ul.submenu > li a:hover {color: yellow;}
 ul.myMenu > li ul.submenu > li a {color : white; }
