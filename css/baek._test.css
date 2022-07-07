@@ -1,0 +1,52 @@
+@import 'reset.css'
+LI_1{
+    padding :20px 15% 20px 15%;
+}
+.content_box {display:flex; justify-content:flex-start; margin:5px; background:#e1e1e1;}
+.content_box > div { border-right:1px solid white; 
+width:1000px; height:50px; line-height:50px; text-align:center; color:white; margin:2px;}
+.content_box > div.last_box {border: 0px solid white;}
+a:visited { color: white; }
+a:hover { color: yellow; }
+a:active { color: yellow; }
+a{text-decoration: none;}
+
+ul, ol, li {list-style: none; margin: 0; padding:0 ;}
+
+ul.myMenu > li {display: inline-block; width: 200px; padding:0px 20px 0px 0px;
+background: #037f37; color : white ;
+text-align: center; position: relative;}
+/* 리스트 정의 */
+ul.myMenu > li:hover {color: yellow;}
+/* 리스트 클릭 시 */
+ul.myMenu > li a:hover {color : yellow ;}
+/* 리스트 내 앵커 클릭시 */
+ul.myMenu > li ul.submenu {display: none ; position: absolute; top:50px; left: -50px;}
+ul.myMenu > li:hover ul.submenu {display: block;}
+/* 서브메뉴 블록화 */
+ul.myMenu > li ul.submenu > li {display: block; width: 100px;
+    padding: 10px 118px 20px 106px;
+    background: #037f37;  text-align: center; border-bottom: 1px solid white;}
+ul.myMenu > li ul.submenu > li a:hover {color: yellow;}
+ul.myMenu > li ul.submenu > li a {color : white; }
+
+.logo {text-align: center;}
+.T_menu:hover {transform: scale(1.05);
+        transition-duration: 1s;}
+.hot_V  {margin: 50px 20px 10px 20px;}
+.hot_S  {margin: 10px 20px 10px 20px;}
+.hot_T  {margin: 10px 20px 10px 20px;}
+
+div.hot_S > a {color:black ; text-align: center; }
+div.hot_S > a:hover {color: #037f37;}
+.menu_img{float: left; width: 30%;}
+.menu_title{float: right; width: 69%; padding: 10px 0px 0px 0px; font-size: large;}
+.menu_subtitle{float: right; width: 69%; font-size: x-small;}
+.menu_list{height: 150px; ;padding:20px 0px 50px 0px ;border-bottom: 2px solid #999;}
+.menu_list:hover {transform: scale(1.01);
+    transition-duration: 1s;}
+.menu_sub{float: right; width: 69%; font-size: large; color: #999; padding-bottom: 50px;
+            font-size: x-small;}
+.menu_title > a {color: black;}
+.menu_subtitle > a {color: black;}
+.menu_sub > a {color: black;}
